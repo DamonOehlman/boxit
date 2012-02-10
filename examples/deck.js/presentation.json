@@ -1,0 +1,11 @@
+{
+    "title": "Test Presentation",
+    "template": "../../templates/deck.js/"
+    "files": [
+        "files/file1.html",
+        "files/file2.md",
+        "files/file3.jade",
+        "files/subdir/",
+        "github://DamonOehlman/textsetter/examples/deck.js/files/test.md"
+    ]
+}
