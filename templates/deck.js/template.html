@@ -15,10 +15,12 @@
 </head>
 <body class="deck-container">
 
-<!-- Create any number of elements with class slide within the container -->
+<!-- use the handlebars each statement to create multiple content sections for the included files -->
+{{#each files}}
 <section class="slide">
-	<!-- Slide content HTML goes here! -->
+	{{ content }}
 </section>
+{{/each}}
 	
 <!-- Other extension HTML snippets go here, at the bottom of the deck container. -->
 

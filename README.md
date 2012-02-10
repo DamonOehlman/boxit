@@ -26,6 +26,18 @@ The first thing you need to do is to create a configuration file that defines yo
 }
 ```
 
+This config file is parsed and converted into a html file (by default) with the same name as the json file.  For instance, this example file is [presentation.json](/DamonOehlman/textsetter/blob/master/examples/deck.js/presentation.json) so would be converted to a [presentation.html](/DamonOehlman/textsetter/blob/master/examples/deck.js/output/presentation.html).
+
+## How it works
+
+### File Loading
+
+To be completed.
+
+### Template Parsing
+
+To be completed.
+
 ## Defining a Template
 
 To be completed, but you could look at the [deck.js example](/DamonOehlman/textsetter/tree/master/templates/deck.js) for my current thoughts.
