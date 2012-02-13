@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+
+var TextSetter = require('../lib/textsetter'),
+    setter = new TextSetter(process.cwd());
+    
+setter.on('done', function() {
+
+});
