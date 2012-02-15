@@ -6,6 +6,6 @@
         "files/file2.md",
         "files/file3.jade",
         "files/subdir/",
-        "github://DamonOehlman/textsetter/examples/deck.js/files/test.md"
+        "github://DamonOehlman/textsetter/examples/deck.js/files/remote-test.md"
     ]
 }

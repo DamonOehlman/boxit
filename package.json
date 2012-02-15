@@ -14,11 +14,12 @@
   "dependencies": {
     "async": "0.1.x",
     "debug": "*",
-    "interleave": "0.1.x",
+    "getit": "*",
     "handlebars": "*"
   },
 
   "devDependencies": {
+    "chai": "0.3.x"
   },
 
   "repository": {
