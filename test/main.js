@@ -14,7 +14,7 @@ describe('loader tests', function() {
     it('should be able to run a processor', function(done) {
         _processor.run(function(err, items) {
             expect(items).to.exist;
-            expect(items.length).to.be.above(0);
+            expect(items.output).to.exist;
             
             done(err);
         });

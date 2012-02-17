@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Test Presentation</title>
+	<title></title>
 	<meta name="viewport" content="width=1024, user-scalable=no">
 	
 	<!-- Replace path with correct path to deck.core.css. -->
@@ -15,45 +15,47 @@
 </head>
 <body class="deck-container">
 
-<!-- Create any number of elements with class slide within the container -->
-<section class="slide">
-    <h2>Test Slide</h2>
-    <p>
-        This is a slide written purely in HTML.
-    </p>
-</section>
-<section class="slide">
-    <h2>A Markdown Slide</h2>
-    <p>This slide was written using markdown and then converter to HTML.</p>
-</section>
-<section class="slide">
-    <h2>A Second Slide</h2>
-    <p>This is another slide</p>
-</section>
-<section class="slide">
-    <h2>Jade Slide</h2>
-    <p>This file was written using jade and then converted to HTML.</p>
-</section>
-<section class="slide">
-    <h2>Subfile 01</h2>
-    <p>This is the first of a few files which have been automatically loaded from a subdirectory.</p>
-</section>
-<section class="slide">
-    <h2>Subfile 02</h2>
-    <p>And this is the second file.</p>
-</section>
-<section class="slide">
-    <h2>Subfile 03</h2>
-    <p>And the third...</p>
-</section>
-<section class="slide">
-    <h2 id="remote_includes_are_possible">Remote Includes are Possible</h2>
+<!-- use the handlebars each statement to create multiple content sections for the included files -->
 
-    <p>This file was included, but referencing a remote file using an <a href="http://interleave.readthedocs.org/en/latest/include-patterns.html">interleave include pattern</a>.  This one in particular was included using the following:</p>
+<section class="slide">
+	<h2>Test Slide</h2>
+<p>
+    This is a slide written purely in HTML.
+</p>
 
-    <pre><code>github://DamonOehlman/textsetter/examples/deck.js/files/test.md
-    </code></pre>
 </section>
+
+<section class="slide">
+	<h2>A Markdown Slide</h2>
+
+<p>This slide was written using markdown and then converter to HTML.</p>
+</section>
+
+<section class="slide">
+	<h2>A Second Slide</h2>
+
+<p>This is another slide</p>
+</section>
+
+<section class="slide">
+	<h2>Jade Slide</h2><p>This file was written using jade and then converted to HTML.</p>
+</section>
+
+<section class="slide">
+	<h2>Subfile 01</h2>
+<p>This is the first of a few files which have been automatically loaded from a subdirectory.</p>
+</section>
+
+<section class="slide">
+	<h2>Subfile 02</h2>
+
+<p>And this is the second file.</p>
+</section>
+
+<section class="slide">
+	<h2>Subfile 03</h2><p>And the third...</p>
+</section>
+
 	
 <!-- Other extension HTML snippets go here, at the bottom of the deck container. -->
 
