@@ -3,6 +3,8 @@
 var TextSetter = require('../lib/textsetter'),
     setter = new TextSetter(process.cwd());
     
-setter.on('done', function() {
-
+setter.on('processor', function(processor) {
+    processor.run(function() {
+        // done
+    });
 });
