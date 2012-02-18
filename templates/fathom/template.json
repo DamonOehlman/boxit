@@ -1,0 +1,12 @@
+{
+    "title": "fathom Standard template",
+    "template": "template.html",
+    "aliases": {
+        "fathom": "github://markdalgleish/fathom"
+    },
+    "resources": [
+        "js/jquery.min.js <= http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js",
+        "js/fathom.js <= fathom!fathom.js",
+        "css/fathom.sample.css <= fathom!fathom.sample.css"
+    ]
+}
