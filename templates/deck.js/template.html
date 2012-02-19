@@ -4,7 +4,6 @@
 	<meta charset="utf-8">
 	<title>{{ title }}</title>
 	<meta name="viewport" content="width=1024, user-scalable=no">
-	
 	<!-- Replace path with correct path to deck.core.css. -->
 	<link rel="stylesheet" href="css/deck.core.css" type="text/css">
 	
@@ -12,6 +11,8 @@
 	
 	<!-- Replace path with correct path to Modernizr file. -->
 	<script src="js/modernizr.custom.js"></script>
+	
+	{{#each includes.head}}{{{ this }}}{{/each}}
 </head>
 <body class="deck-container">
 
@@ -37,5 +38,6 @@
 		$.deck('.slide');
 	});
 </script>
+{{#each includes.body}}{{{ this }}}{{/each}}
 </body>
 </html>
