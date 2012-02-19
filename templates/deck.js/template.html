@@ -17,7 +17,7 @@
 
 <!-- use the handlebars each statement to create multiple content sections for the included files -->
 {{#each items}}
-<section class="slide">
+<section class="slide" {{#each attributes}}{{key}}="{{val}}"{{/each}}>
 	{{{ content }}}
 </section>
 {{/each}}

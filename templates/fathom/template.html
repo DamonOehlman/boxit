@@ -24,7 +24,7 @@ $(document).ready(function(){
 <body>
 <div id="presentation">
     {{#each items}}
-	<div class="slide">
+	<div class="slide" {{#each attributes}}{{key}}="{{val}}"{{/each}}>
 	    {{{ content }}}
 	</div>
 	{{/each}}
