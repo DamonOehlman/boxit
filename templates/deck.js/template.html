@@ -12,9 +12,7 @@
 	<!-- Replace path with correct path to Modernizr file. -->
 	<script src="js/modernizr.custom.js"></script>
 	
-	{{#with includes}}
-	    {{#each head}}{{{ this }}}{{/each}}
-	{{/with}}
+	{{#each includes.head}}{{{ this }}}{{/each}}
 </head>
 <body class="deck-container">
 
