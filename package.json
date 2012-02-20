@@ -15,6 +15,7 @@
     "async": "0.1.x",
     "debug": "*",
     "mkdirp": "0.3.x",
+    "findit": "0.1.x",
     "getit": "*",
     "handlebars": "*",
     "out": "*"
