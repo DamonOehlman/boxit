@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 
-var TextSetter = require('../lib/textsetter'),
-    setter = new TextSetter(process.cwd()),
+var Boxer = require('../lib/boxer'),
+    boxer = new Boxer(process.cwd()),
     out = require('out');
     
-setter.on('processor', function(processor) {
+boxer.on('processor', function(processor) {
     processor.run(function(err) {
         if (err) {
             out('!{red}{0}', err);

@@ -1,12 +1,12 @@
 {
-  "name": "textsetter",
+  "name": "boxit",
   "description": "HTML and text file builder / collator",
   "author": "Damon Oehlman <damon.oehlman@sidelab.com>",
   "tags": [ "build", "html" ],
-  "version": "0.0.2",
+  "version": "0.1.0",
   "main": "index.js",
   "bin": {
-    "textsetter": "./bin/textsetter"
+    "boxit": "./bin/boxit"
   },
   "engines": {
     "node": ">= 0.4.x < 0.7.0"

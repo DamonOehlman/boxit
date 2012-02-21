@@ -1,5 +1,5 @@
 var path = require('path'),
-    textsetter = require('../../'),
+    boxit = require('../../'),
     configFile = path.resolve(__dirname, '../../examples/deck.js/presentation.json');
 
-module.exports = textsetter(configFile);
+module.exports = boxit(configFile);
