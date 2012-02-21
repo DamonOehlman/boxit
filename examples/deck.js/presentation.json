@@ -1,6 +1,6 @@
 {
     "title": "Test Presentation",
-    "template": "../../templates/deck.js/",
+    "template": "github://DamonOehlman/packing-instructions/deck.js",
     "sources": [
         "files/file1.html",
         "files/file2.md",
