@@ -13,13 +13,12 @@ The first thing you need to do is to create a configuration file that defines yo
 ```json
 {
     "title": "Test Presentation",
-    "template": "../../templates/deck.js/"
-    "files": [
+    "template": "github://DamonOehlman/packing-instructions/deck.js",
+    "sources": [
         "files/file1.html",
         "files/file2.md",
         "files/file3.jade",
-        "files/subdir/",
-        "github://DamonOehlman/boxit/examples/deck.js/files/test.md"
+        "files/subdir/"
     ]
 }
 ```
@@ -38,7 +37,7 @@ To be completed.
 
 ## Defining a Template
 
-To be completed, but you could look at the [deck.js example](/DamonOehlman/boxit/tree/master/templates/deck.js) for my current thoughts.
+To be completed, but take a look at the [packing instructions](/DamonOehlman/packing-instructions) repository for some examples.  Essentially, you have a `json` file that defines the template and an accompanying [handlebars](http://handlebarsjs.com/) template file that source files are passed through.
 
 ## Feedback?
 
