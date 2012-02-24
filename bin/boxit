@@ -13,3 +13,7 @@ boxer.on('processor', function(processor) {
         }
     });
 });
+
+boxer.on('scanned', function(processors) {
+    // TODO: watch the processors
+});
