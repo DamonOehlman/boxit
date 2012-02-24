@@ -3,7 +3,7 @@
   "description": "HTML and text file builder / collator",
   "author": "Damon Oehlman <damon.oehlman@sidelab.com>",
   "tags": [ "build", "html" ],
-  "version": "0.1.3",
+  "version": "0.1.4",
   "main": "index.js",
   "bin": {
     "boxit": "./bin/boxit"
