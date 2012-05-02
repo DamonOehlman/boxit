@@ -1,19 +1,2 @@
 #!/usr/bin/env node
-
-var Boxer = require('../lib/boxer'),
-    boxer = new Boxer(process.cwd()),
-    out = require('out');
-    
-boxer.on('processor', function(processor) {
-    processor.out = out;
-
-    processor.run(function(err) {
-        if (err) {
-            out('!{red}{0}', err);
-        }
-    });
-});
-
-boxer.on('scanned', function(processors) {
-    // TODO: watch the processors
-});
+require('../')();
