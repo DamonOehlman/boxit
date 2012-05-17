@@ -21,6 +21,7 @@
     "findit": "0.1.x",
     "getit": "0.1.x",
     "handlebars": "1.0.5beta",
+    "manifest": "0.0.x",
     "marked": "0.2.x",
     "out": "0.4.x",
     "scaffolder": "0.5.x",
