@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/DamonOehlman/boxit.png)](http://travis-ci.org/DamonOehlman/boxit)
 # BoxIt
 
 BoxIt is a command-line tool designed to make compiling a single HTML page (or even plain text) from multiple snippets locally a lot simpler.  This project was created as a follow-up project to [deckem](https://github.com/DamonOehlman/deckem) which I started as to help with creating [deck.js](https://github.com/imakewebthings/deck.js) presentations.  Deckem wasn't really the right solution though, as it was too narrow in it's focus.
