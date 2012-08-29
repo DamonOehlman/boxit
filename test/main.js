@@ -1,4 +1,4 @@
-var expect = require('chai').expect,
+var assert = require('assert'),
     setter, _processor;
 
 describe('loader tests', function() {
@@ -13,8 +13,9 @@ describe('loader tests', function() {
     
     it('should be able to run a processor', function(done) {
         _processor.run(function(err, items) {
-            expect(items).to.exist;
-            expect(items.output).to.exist;
+            assert.ifError(err);
+            assert(items);
+            assert(items.output);
             
             done(err);
         });
