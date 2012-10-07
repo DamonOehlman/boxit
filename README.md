@@ -13,7 +13,7 @@ The first thing you need to do is to create a configuration file that defines yo
 ```json
 {
     "title": "Test Presentation",
-    "template": "github://DamonOehlman/packing-instructions/deck.js",
+    "template": "reveal.js",
     "sources": [
         "files/file1.html",
         "files/file2.md",
