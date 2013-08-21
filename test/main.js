@@ -6,7 +6,6 @@ describe('loader tests', function() {
   it('should be able to capture a processor being created', function(done) {
     setter = require('./helpers/loadexample');
 
-    console.log(setter);
     setter.on('processor', function(processor) {
       _processor = processor;
       done();
