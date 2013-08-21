@@ -35,7 +35,8 @@
     "url": "http://github.com/DamonOehlman/boxit/issues"
   },
   "scripts": {
-    "test": "$(npm bin)/mocha --reporter spec"
+    "test": "$(npm bin)/mocha --reporter spec",
+    "gendocs": "gendocs > README.md"
   },
   "optionalDependencies": {}
 }
