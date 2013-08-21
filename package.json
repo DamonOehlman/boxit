@@ -2,34 +2,30 @@
   "name": "boxit",
   "description": "HTML and text file builder / collator",
   "author": "Damon Oehlman <damon.oehlman@sidelab.com>",
-  "tags": [
+  "keywords": [
     "build",
     "html"
   ],
   "version": "0.3.2",
-  "main": "lib/boxit.js",
   "bin": {
     "boxit": "./bin/boxit"
   },
-  "engines": {
-    "node": ">= 0.6.x < 0.9.0"
-  },
   "dependencies": {
-    "async": "0.1.x",
+    "async": "~0.2.9",
     "debug": "*",
     "mkdirp": "0.3.x",
     "findit": "0.1.x",
-    "getit": "0.2.x",
+    "getit": "~0.3.3",
     "handlebars": "1.0.x",
-    "manifest": "0.1.x",
+    "manifest": "~0.1.2",
     "marked": "0.2.x",
-    "out": "0.4.x",
+    "out": "~0.5.0",
     "rimraf": "2.0.x",
-    "scaffolder": "0.6.x",
-    "underscore": "1.3.x"
+    "scaffolder": "0.8.x",
+    "underscore": "1.5.x"
   },
   "devDependencies": {
-    "mocha": "1.3.x"
+    "mocha": "1.12.x"
   },
   "repository": {
     "type": "git",
@@ -39,8 +35,7 @@
     "url": "http://github.com/DamonOehlman/boxit/issues"
   },
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec"
+    "test": "$(npm bin)/mocha --reporter spec"
   },
-  "contributors": [],
   "optionalDependencies": {}
 }
