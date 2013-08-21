@@ -1,4 +1,5 @@
 .DS_Store
 node_modules
 examples/deck.js/output
-.cache
+.cache/
+-/
