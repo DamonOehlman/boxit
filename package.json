@@ -1,7 +1,7 @@
 {
   "name": "boxit",
   "description": "HTML and text file builder / collator",
-  "author": "Damon Oehlman <damon.oehlman@sidelab.com>",
+  "author": "Damon Oehlman <damon.oehlman@gmail.com>",
   "keywords": [
     "build",
     "html"
@@ -39,5 +39,11 @@
     "test": "$(npm bin)/mocha --reporter spec -t 30s",
     "gendocs": "gendocs > README.md"
   },
-  "optionalDependencies": {}
+  "optionalDependencies": {},
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "license": "MIT"
 }
