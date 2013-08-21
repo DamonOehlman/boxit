@@ -6,17 +6,20 @@ var path = require('path');
 var Boxer = require('./lib/boxer');
 
 /**
-  # BoxIt
+  # Boxit
 
   BoxIt is a command-line tool designed to make compiling a single HTML page
-  (or even plain text) from multiple snippets locally a lot simpler.  This
-  project was created as a follow-up project to
+  (or even plain text) from multiple snippets locally a lot simpler.
+  
+  ## Why Boxit?
+
+  This project was created as a follow-up project to
   [deckem](https://github.com/DamonOehlman/deckem) which I started as to
   help with creating [deck.js](https://github.com/imakewebthings/deck.js)
   presentations.  Deckem wasn't really the right solution though, as it was
   too narrow in it's focus.
 
-  By comparison, BoxIt is __incredibly flexible__ and allows you to use
+  By comparison, Boxit is __incredibly flexible__ and allows you to use
   both __local and remote__ resources to create static local files
   (suitable for offline bundling).
 
