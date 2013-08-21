@@ -34,7 +34,7 @@ var Boxer = require('./lib/boxer');
   example has been[created in this repository](examples/deck.js) and the
   json configuration file from that example is shown below:
 
-  <<< examples/deck.js/presentation.json
+  <<< examples/deck.js/src/presentation.json
 
   This config file is parsed and converted into a html file (by default) with
   the same name as the json file.  For instance, this example file is
