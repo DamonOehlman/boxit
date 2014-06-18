@@ -26,8 +26,8 @@
     "underscore": "^1"
   },
   "devDependencies": {
-    "mocha": "1.12.x",
-    "jade": "~0.34.1"
+    "mocha": "^1",
+    "jade": "^1"
   },
   "repository": {
     "type": "git",
