@@ -21,7 +21,7 @@
     "manifest": "~0.1",
     "marked": "~0.3",
     "out": "~0.5.0",
-    "rimraf": "2.0.x",
+    "rimraf": "^2",
     "scaffolder": "~0.9",
     "underscore": "^1"
   },
