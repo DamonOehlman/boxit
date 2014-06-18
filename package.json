@@ -12,18 +12,18 @@
   },
   "preferGlobal": true,
   "dependencies": {
-    "async": "~0.2.9",
-    "debug": "*",
-    "mkdirp": "0.3.x",
-    "findit": "0.1.x",
-    "getit": "~0.3.3",
-    "handlebars": "1.0.x",
-    "manifest": "~0.1.2",
-    "marked": "0.2.x",
+    "async": "~0.9",
+    "debug": "^1",
+    "mkdirp": "~0.5",
+    "findit": "^1",
+    "getit": "~0.4",
+    "handlebars": "^1",
+    "manifest": "~0.1",
+    "marked": "~0.3",
     "out": "~0.5.0",
     "rimraf": "2.0.x",
-    "scaffolder": "0.8.x",
-    "underscore": "1.5.x"
+    "scaffolder": "~0.9",
+    "underscore": "^1"
   },
   "devDependencies": {
     "mocha": "1.12.x",
