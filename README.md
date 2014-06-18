@@ -6,8 +6,7 @@ BoxIt is a command-line tool designed to make compiling a single HTML page
 
 [![NPM](https://nodei.co/npm/boxit.png)](https://nodei.co/npm/boxit/)
 
-[![Build Status](https://travis-ci.org/DamonOehlman/boxit.png?branch=master)](https://travis-ci.org/DamonOehlman/boxit)
-[![stable](http://hughsk.github.io/stability-badges/dist/stable.svg)](http://github.com/hughsk/stability-badges)
+[![Build Status](https://img.shields.io/travis/DamonOehlman/boxit.svg?branch=master)](https://travis-ci.org/DamonOehlman/boxit) [![stable](https://img.shields.io/badge/stability-stable-green.svg)](https://github.com/dominictarr/stability#stable) 
 
 ## Why Boxit?
 
@@ -82,7 +81,7 @@ file that source files are passed through.
 
 ### MIT
 
-Copyright (c) 2013 Damon Oehlman <damon.oehlman@gmail.com>
+Copyright (c) 2014 Damon Oehlman <damon.oehlman@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
