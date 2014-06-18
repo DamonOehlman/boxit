@@ -8,7 +8,7 @@ var path = require('path');
 var getit = require('getit');
 var manifest = require('manifest');
 var handlebars = require('handlebars');
-var Processor = require('../processor');
+var Processor = require('../lib/processor');
 
 
 function scaffold(scaffolder, scaffoldPath, opts, callback) {
@@ -30,7 +30,7 @@ function scaffold(scaffolder, scaffoldPath, opts, callback) {
         if (err) {
           return callback(err);
         }
-        
+
         targetFile = path.join(
           opts.path,
           path.basename(opts.filename || 'index', '.json') + '.json'
@@ -64,7 +64,7 @@ exports.args = {
 exports.run = function(opts, callback) {
   var processor = new Processor('', opts);
   var templateLocation;
-  
+
   // if no template is specified, then report an error
   if (! opts.template) {
     this.out('!{red}No template specified, ' +
@@ -72,7 +72,7 @@ exports.run = function(opts, callback) {
 
     return;
   }
-  
+
   // find the templatelocation
   templateLocation = processor.getTemplateLocation(opts.template);
 

@@ -3,7 +3,7 @@
 
 var rimraf = require('rimraf');
 var path = require('path');
-var Boxer = require('../../');
+var Boxer = require('../');
 
 // action description
 exports.desc = 'Clean the output directory';

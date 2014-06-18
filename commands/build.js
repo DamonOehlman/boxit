@@ -13,4 +13,4 @@ exports.args = {
 };
 
 // export runner
-exports.run = require('../..');
+exports.run = require('..');
